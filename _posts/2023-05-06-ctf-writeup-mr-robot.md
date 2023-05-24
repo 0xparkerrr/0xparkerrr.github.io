@@ -113,7 +113,7 @@ Now that we've gained a reverse shell to the system, we can upgrade our shell wi
 >This will only work if the machine has Python installed. You would just need to run `which python` to see if it is.
 
 Taking a look around, we find there's a directory at `/home/robot/` with two files. We don't have the right permissions to read the text file. We can, however, read the `password.raw-md5` file which looks like the credentials for the `robot` user. 
-![](/assets/analysis/mr-robot/shell.PNG)
+![](/assets/analysis/mr-robot/home-robot.PNG)
 
 There are a couple of ways we can crack the password. Because MD5 isn't really secure, if the original plaintext is also insecure we can use tools like [Crackstation](https://crackstation.net/) or [Decodify](https://github.com/s0md3v/Decodify). I've taken a liking to Decodify recently, so that's what I use, but it's always good to have multiple options.
 
