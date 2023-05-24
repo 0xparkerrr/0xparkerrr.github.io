@@ -5,7 +5,7 @@ description: >-
   just a minimalist, personal tech and hacking blog
 lang: en-US
 timezone:  America/Chicago
-repo: https://github.com/DavideBri/Gesko # site repo [optional]
+repo: https://github.com/0xparkerrr # site repo [optional]
 data-theme: dark # default theme "dark" | "light"
 discus-identifier: powex # replace with your disqus shortname
 
